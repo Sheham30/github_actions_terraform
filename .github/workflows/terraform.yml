@@ -30,14 +30,14 @@ jobs:
           aws-region: us-east-1
           
       # Install and configure the specified version of Terraform
-      - name: Initialize Terraform
+      - name: Initialize Terraformmm
         uses: hashicorp/setup-terraform@v1
         with:
           # Using version 1.4.6 version of Terraform
           terraform_version: 1.4.6
 
       # Run Terraform plan to preview the changes
-      - name: Terraform Plan
+      - name: Terraform Plannnnn
         id: plan
         # -out=tfplan will generate binary file named "tfplan" 
         run: |
